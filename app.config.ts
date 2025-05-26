@@ -1,9 +1,9 @@
 import type { RouteLocationRaw } from 'vue-router'
-import { NuxtApp } from '#app'
+import type { NuxtApp } from '#app'
 import {
-  AwesomeLayoutPageNavbarMenu,
-  AwesomeLayoutPageNavbarMenuDropdownItem,
-} from './types'
+  type AwesomeLayoutPageNavbarMenu,
+  type AwesomeLayoutPageNavbarMenuDropdownItem,
+} from './utils/types'
 
 export interface NuxtAwesomeAppConfig {
   /** title name */
